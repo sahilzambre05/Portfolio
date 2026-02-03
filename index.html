@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Sahil</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Sahil</span>
+                </h1>
+                <p class="hero-subtitle">I develop modern user interfaces and web applications</p>
+                <p class="hero-description">
+                    Skilled Software Developer — crafting real-world solutions that blend design, efficiency, and innovation.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="https://drive.google.com/file/d/1XE_r2akNdby6eRlbS2zsf2Bg0s2OkQLr/view?usp=drive_link" class="btn btn-secondary" target="_blank" rel="noopener">Download Resume</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a student at VIT Vellore with a passion for building things with code. I love working with JavaScript, React, and Node.js — whether it's a crypto dashboard, a club website, or learning new tech in internships. I'm always exploring, experimenting, and turning ideas into projects.
+                    </p>
+                    <p>
+                        Beyond coursework, I'm Vice Chairperson at GeoSpatial Club, where I help run events and grow our community. I've done research at IIT Roorkee in AI/ML and enjoy collaborating on hackathons and side projects. I'm looking for opportunities to learn more, contribute, and grow as a developer.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">VIT</div>
+                            <div class="stat-label">Vellore</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Projects Built</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Clubs & Internships</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2024 – Present</span>
+                        <h3 class="timeline-title">Vice Chairperson</h3>
+                        <p class="timeline-company">GeoSpatial Club, VIT Vellore</p>
+                        <ul class="timeline-points">
+                            <li>Enhanced online visibility by driving a 150% increase in social media followers, boosting engagement and outreach.</li>
+                            <li>Secured sponsorships and partnerships that exceeded fundraising targets by 20%, ensuring successful event execution.</li>
+                            <li>Organized technical workshops and networking events, fostering industry collaboration and student participation.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Dec 2024 – Jan 2025</span>
+                        <h3 class="timeline-title">Research Intern</h3>
+                        <p class="timeline-company">Indian Institute of Technology, Roorkee — Uttarakhand, India</p>
+                        <ul class="timeline-points">
+                            <li>Acquired hands-on insight into AI and ML, exploring anomaly detection and dynamic bipartite graphs, while understanding how theoretical knowledge translates into practical problem-solving.</li>
+                            <li>Strengthened research skills by reviewing 20+ academic papers, learning structured problem-solving, and understanding how to translate theoretical AI concepts into practical applications.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://sahilcryptoapp.netlify.app/" class="project-link" target="_blank" rel="noopener" aria-label="CryptoVerse">Project Link</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CryptoVerse – Cryptocurrency Dashboard</h3>
+                        <p class="project-description">
+                            Responsive cryptocurrency dashboard for 100+ coins using CoinRanking API and News API, ensuring seamless cross-device accessibility. Interactive UI/UX with Ant Design and Tailwind CSS. Chart.js for real-time and historical price trends (7-day, 30-day, 1-year). Redux Toolkit for global state management. Deployed on Netlify.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">Redux Toolkit</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">Ant Design</span>
+                            <span class="tag">RapidAPI</span>
+                            <span class="tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://react-geospatial.vercel.app/" class="project-link" target="_blank" rel="noopener" aria-label="Geospatial Club">Project Link</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Geospatial Club – Official Website</h3>
+                        <p class="project-description">
+                            Collaborated on building and deploying the club website, centralizing resources and event updates for 200+ students. Led UI/UX design with simplified navigation flow and responsive layout based on user feedback, significantly enhancing accessibility and engagement.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">React JS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Tailwind CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Redux / Material UI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend & Data</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Firebase</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Spring Boot</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Cloud</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">REST APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            </p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>sahildinesh.zambre2023@vitstudent.ac.in</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>https://www.linkedin.com/in/sahil-zambre/</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>https://github.com/sahilzambre05</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sahil. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
